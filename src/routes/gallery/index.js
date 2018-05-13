@@ -95,7 +95,7 @@ class Gallery extends React.Component {
 
         // 左边 右边
         for (var i = 0; i < imgsArray.length; i++) {
-            if (i % 2 == 0) {
+            if (i % 2 === 0) {
                 imgsArray[i] = {
                     pos: {
                         left: this.getRandom(constant.hPosRange.leftSecX[0], constant.hPosRange.leftSecX[1]),
